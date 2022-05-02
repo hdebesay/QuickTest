@@ -6,12 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
-   <!--  -->
+   <!-- we use the link tag to connect our html to css file -->
    <link rel="stylesheet" href="messageBoard.css">
 
 </head>
 <body>
-    <!--  -->
+    <!-- Here we have two input boxes with twp buttons -->
     <nav>
     <label for="search">Search</label>
     <input type="text" name="" id="search" placeholder="Search">
@@ -20,15 +20,15 @@
     <button id="signup">Sign Up</button>
     </nav>
 
-    <!--  -->
+    <!-- we have to use main for the main part of the body and we also haave to indent nested elements for readability -->
     <main> 
         
         <h1>Popular Posts</h1>
 
-        <!--  -->
+        <!--  we have used the same classes for the sections, because we can affect all of the using the classes -->
             <section class="post">
                 <span>Posted by <a href="#">/Arsenalfan</a></span>
-                <h2>Manchester United is never getting back to their glory days</h2>
+                <h2>Manchester United is never getting back to their <span class="tag">glory days.</span></h2>
                 <button>+vote</button>
                 <hr>
             </section>
@@ -36,7 +36,7 @@
             <section class="post">
 
                 <span>Posted by <a href="#">/ManUfan</a></span>
-                <h2>Arsenal fan shouldn't be talking right now</h2>
+                <h2>Arsenal fan shouldn't be talking right now.</h2>
                 <button>+vote</button>
                 <hr>
                 
@@ -45,7 +45,7 @@
             <section class="post">
                 
                 <span>Posted by <a href="#">/chelseafan</a></span>
-                <h2>Both of your teams will never their glory days for sure</h2>
+                <h2>Both of your teams will never their glory days for sure.</h2>
                 <button>+vote</button>
                 <hr>
 
@@ -70,6 +70,8 @@
                 </li>
             </ul>
         </nav>
+
+        <a href="">Link to Man U Website</a>
 
         
     </footer>

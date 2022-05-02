@@ -1,0 +1,43 @@
+/* usign  a * sign helps you aplly color or style to the whole page */
+/* *{
+    color: pink;
+    background-color: green;
+}
+*/
+
+
+
+/* body is the part between header and footer*/
+body{
+    background-color: beige;
+}
+/* here since we are using button word, it is going to affect all the button on the page*/
+button{
+    font-size: 30px;
+}
+/* we can use multiple selectors at the same time*/
+
+h1, h2{
+    color: crimson;
+}
+/* we are using an id here becasue it is specific to one object unlike classes*/
+#signup{
+    color: blue;
+    background-color: yellow;
+}
+
+/* here we are using period indtead of hashtag because we use period for classes*/
+.tag{
+    color: blue;
+}
+
+/* we are usign descendent selector using class */
+.post a{
+    color: blue;
+}
+
+/* here we are using decendent selector using the actual selector */
+footer > a {
+    color: red;
+ }
+
