@@ -41,3 +41,29 @@ footer > a {
     color: red;
  }
 
+ /* This is attribute selector and it only selects an attribute with good in it */
+ a[href*="google"]{
+    color: darkorange;
+ }
+
+ /* This a one of many Pseudo-classes helps you appply different functions */
+ button:hover{
+     color: pink;
+     background-color: purple;
+ }
+
+ /* This will make a button show that it is active when it is clicked */
+.post button:active{
+    background-color: red;
+}
+
+/* pseuedo elements helps us select specific elements */
+h2::first-letter{
+    font-size: 50px;
+}
+
+/* pseuedo elements that will affect the first line of the paragraph */
+
+p::first-line{
+    color: green;
+}
