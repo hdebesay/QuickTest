@@ -1,0 +1,29 @@
+.odd{
+    color: #DE4471;
+}
+
+.even{
+    color: #21863B;
+}
+
+.third{
+    color: #9A9D68;
+}
+
+.double{
+    color: #F71705;
+}
+
+.seventh{
+    color: #D8933F;
+}
+
+#yes{
+    background-color: #1F8000;
+    color: white;
+}
+
+#no{
+    background-color: #F71702;
+    color: white;
+}
