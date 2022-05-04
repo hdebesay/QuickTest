@@ -32,12 +32,13 @@ h1, h2{
 }
 
 /* we are usign descendent selector using class */
+
 .post a{
     color: blue;
 }
 
 /* here we are using decendent selector using the actual selector */
-footer > a {
+footer > a{
     color: red;
  }
 
