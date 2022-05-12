@@ -22,7 +22,7 @@
 
         <div class="collapse navbar-collapse" id="navbar1">
             <!--  -->
-            <ul class="navbar-nav">
+            <ul class="navbar-nav d-flex me-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="https//www.soonersports.com">SoonerSports</a>
                 </li>
@@ -46,9 +46,15 @@
 
                         <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
                     </ul>
-
                 </li>
+                <!-- we added me-2 for the allignment of objects inside of the container -->
+                <form class="d-flex" action="/testing">
 
+                    <input type="search" class="form-control me-2" placeholder="Search">
+
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+                </form>
 
             </ul>
         </div>
