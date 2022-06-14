@@ -72,6 +72,7 @@ for (let i = 0; i <=20; i +=2) {
 for (let i = 100; i >= 0; i -=2) {
 
      console.log(i);
+    //  will go down by 2 and will stop at 0
 
 }
 
@@ -80,8 +81,9 @@ for (var i = 0; i < items.length; i++) {
     items[i].style.backgroundColor = 'grey';
     items[i].textContent = 'I Changed The List';
     items[i].style.color = 'green';
+    // it will change all the of them as long as the items length is
 
-/}
+}
 
 const myDiamonds = ['Snacky','Scary','Piggy','Pinchie','Lily','IttyBitty','Nibbles','Lanky','Kibbles'];
 
@@ -210,7 +212,7 @@ else {
     console.log("Last Resort If All Conditons Fail");
 } 
 
-
+// one you declare something with const, you can not change it later.
 const expr = 'Papayas';
 
 switch (age) {
@@ -229,12 +231,15 @@ switch (age) {
 
 }
 
+// break is important because once it finds the right item, it will stop the function
+
 const password = prompt("Please Enter A New Password");
 
 if (password.length >= 6) {
 
     //Nested Condition
     if (password.indexOf(' ') === -1) {
+    //  The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
         console.log("Valid Password")
     }else {
